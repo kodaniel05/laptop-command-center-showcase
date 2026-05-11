@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+dist/
+build/
+out/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local data and private exports
+data/
+*.sqlite
+*.db
+*.log
+*.local
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Screenshots may be added intentionally, but avoid committing raw private captures.
